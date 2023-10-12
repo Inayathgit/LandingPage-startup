@@ -1,0 +1,247 @@
+head{
+     width: 1400px;
+      height:890px;
+}
+body{
+    background-color: #2F1893;
+    background-size: cover;
+}
+
+.heading{
+    font:'DM Sans';
+    size: 58px;
+    font-weight: 700;
+    align-items: center;
+    color: #ffffff;
+    line-height: 70px;
+    letter-spacing: -1px;
+    width: 424px;
+    height: 217px;
+    top: 219px;
+    left:212px;
+
+}
+.para{
+    font : 'DM Sans';
+    font-weight: 500;
+    size:22px;
+    line-height: 32px;
+    color: #ffffff;
+    width: 363px;
+    height: 160px;
+    top: 460px;
+    left:212px;
+}
+
+
+.h3-title{
+    width: 247px;
+    height: 52px;
+    top:235px;
+    left:829px;
+    background-color: #ffffff;
+    font : 'DM Sans';
+    line-height: 52px;
+    letter-spacing: -0.4px;
+    font-weight: 700;
+    color: #1E0E62;
+    size: 42px;
+    outline: none !important;
+}
+
+.form-input{
+    width:88px;
+    height: 26px;
+    top:12px;
+    left:24px;
+    font-weight: 700;
+    size: 18px;
+    line-height: 26px;
+
+}
+.form-layout{
+    width: 470px;
+    height: 600px;
+    top: 187px;
+    left: 715px;
+    margin-right: 500px;
+}
+.form-inside{
+    width: 330px;
+    height: 50px;
+    top: 321px;
+    left: 785px;
+
+}
+
+.form-control, .btn {
+    border-radius: 100px;
+    outline: none !important;
+    width: 330px;
+    height:50px;
+    border: 2px solid #EBEAED;
+    font-weight: 500;
+    size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    }
+
+    .terms{
+        width:228px;
+        height: 26px;
+        top: 471.4px;
+        left:822px;
+        font-weight: 400;
+        size: 16px;
+        line-height: 26px;
+        color: #151439;
+
+    }
+    .signinbtn{
+    width:330px;
+    height:50px;
+    border-radius: 100px;
+    background-color: #482BE7;
+    outline: none !important;
+    font:'DM Sans';
+    size: 18px;
+    font-weight: 500;
+    align-items: center;
+    color: #ffffff;
+
+    }
+    .account{
+        width: 215px;
+        height: 28px;
+        top: 716px;
+        left:815px;
+        font: 'DM Sans';
+        font-weight: 500;
+        size: 18px;
+        line-height: 28px;
+        align-items: center;
+        color: #151439;
+    }
+    .horizontalline{
+
+        width: 141.57px;
+        height: 2px;
+        top: 604.5px;
+        left:784.5px;
+        border: 1px solid #EBEAED;
+        margin-bottom: 25px;
+    }
+    .horizontalrow{
+
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    .container {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 22px;
+        
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      
+      
+      .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+       
+      }
+      
+     
+      .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 22px;
+        width: 22px;
+        background-color: #1E0E62;
+        border-radius: 5px;
+      }
+      
+     
+      .container input:checked ~ .checkmark {
+        background-color: #25DAC5;
+      }
+      
+      
+      .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+      }
+      
+      
+      .container input:checked ~ .checkmark:after {
+        display: block;
+      }
+      
+      /* Style the checkmark/indicator */
+      .container .checkmark:after {
+        left: 9px;
+        top: 5px;
+        width: 5px;
+        height: 10px;
+        border: solid #1E0E62;
+        
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+      .round{
+        border: 1px solid transparent;
+        padding-bottom: 35px;
+        width:120px;
+        height:40px;
+        border-radius: 100px;
+        background-color: #E93A7D;
+        border-color: #E93A7D;
+        font-family:'DM Sans';
+        size: 18px;
+        font-weight: 500;
+        align-items: center;
+        color: #ffffff;
+      }
+      .sign{
+        border: 1px solid transparent;
+        width:330px;
+        height:50px;
+        border-radius: 100px;
+        background-color: #482BE7;
+        outline: none !important;
+        font:'DM Sans';
+        size: 18px;
+        font-weight: 500;
+        align-items: center;
+        color: #ffffff;
+    
+
+      }
+      .twitter{
+        background-color: #1DA1F2;
+        border: 1px solid transparent;
+        width:330px;
+        height:50px;
+        border-radius: 100px;
+        outline: none !important;
+        font:'DM Sans';
+        size: 18px;
+        font-weight: 500;
+        align-items: center;
+        color: #ffffff;
+
+      }
